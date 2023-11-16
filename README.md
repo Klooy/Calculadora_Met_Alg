@@ -1,6 +1,6 @@
 # Calculadora_Met_Alg
-###################################################################################################################################################################################################################
+
 DESCRIPCION:
 Este proyecto es una calculadora de métodos algorítmicos que permite encontrar las raíces de una función matemática mediante cuatro métodos diferentes: bisección, falsa posición, secante y Newton-Raphson. Cada método tiene sus ventajas y desventajas, y se puede elegir el más adecuado según el tipo de función, el intervalo de búsqueda y la precisión deseada. La calculadora muestra los pasos y los resultados de cada método, así como una gráfica de la función y las raíces encontradas. El objetivo de este proyecto es facilitar el aprendizaje y la aplicación de estos métodos algorítmicos en problemas de ingeniería y ciencias.
 El programa será desarrollado en el lenguaje de programación Python, que es uno de los más populares y versátiles en el ámbito científico y de ingeniería. Python ofrece una sintaxis clara y sencilla, así como una gran variedad de librerías y módulos que facilitan el manejo de datos, el cálculo numérico, la visualización gráfica y la implementación de algoritmos. Estas características hacen de Python un lenguaje muy útil y eficiente para resolver problemas que requieren el uso de métodos algorítmicos como los que se presentan en este proyecto.
-###################################################################################################################################################################################################################
+
