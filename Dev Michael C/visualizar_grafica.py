@@ -2,15 +2,22 @@
 #DEV MICHAEL FELIPE CORRALES FLOREZ - 1007423576
 
 import math
+ 
 import matplotlib.pyplot as plt
 import numpy as np
 import tkinter as tk
 from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
+from formateo import formatearFuncion
 
 # Función para visualizar la gráfica
 def visualizar_grafica(funcion_str):
+    
     # Convertir la cadena de texto en una función
-    funcion = eval("lambda x: " + funcion_str)
+    print(funcion_str)
+    print(formatearFuncion(funcion_str))
+    print(eval("lambda x: " + formatearFuncion(funcion_str)))
+
+    funcion = eval("lambda x: " + formatearFuncion(funcion_str))
 
     # Vectorizar la función para que pueda tomar un array numpy
     vf = np.vectorize(funcion)

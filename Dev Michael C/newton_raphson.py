@@ -7,10 +7,12 @@ from tkinter import simpledialog, messagebox
 from matplotlib.figure import Figure
 from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
 import numpy as np
+from formateo import formatearFuncion
 
 # Función para evaluar la expresión ingresada por el usuario
 def evaluarFuncion(expr, x):
-    return eval(expr)
+    expresionFormateada=eval(formatearFuncion(expr))
+    return expresionFormateada
 
 # Función para evaluar la derivada de la expresión ingresada por el usuario
 def func_prime(expr, x):
