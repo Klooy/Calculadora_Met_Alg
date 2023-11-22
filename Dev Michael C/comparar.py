@@ -7,11 +7,13 @@ import numpy as np
 import tkinter as tk
 from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
 from tkinter import ttk
+from formateo import formatearFuncion
 
 def abrir_ventana():
     # Función para evaluar la función
     def evaluarFuncion(funcion_str, x):
-        funcion = eval("lambda x: " + funcion_str)
+         
+        funcion = eval("lambda x: " + formatearFuncion(funcion_str))
         return funcion(x)
 
         # Método de Bisección
